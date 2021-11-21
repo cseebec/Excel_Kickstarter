@@ -5,4 +5,6 @@
 * The starting spreadsheet, KickStarter_Starting_Data.xlsx, for this repo has over 4,000 kickstarter projects. 
 * The columns in the starting spreadsheet are id, name, blurb, goal, pledged, state, country, currency, deadline, launched_at, staff_pick, backers_count, spotlight, and Category and Sub-Category. Each row in the dataset is one kickstarter campaign. 
 
+![](03_Images/Starting_Data.jpg)
+
 ### Analysis / Results
