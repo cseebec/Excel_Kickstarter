@@ -7,20 +7,26 @@
 
 ![](03_Images/Starting_Data.JPG)
 
-### Analysis / Results
 
-#### Cleaning Data
-* When you are working with any new dataset the first two things that you should always do are one make sure that you understand the data and two make sure that the data is in a form that you can perform analysis on it. That is exactly what I did for this project. The column headers made the starting dataset very easy to understand. Then, I became to clean the data. Most of the columns were in a form that I could easily work with. However, deadline, launched_at, and Category and Sub Category were not in forms that I could use. Deadline and launched_at are meant to be dates but they are not in the starting dataset so I used the Date function to convert the values in these columns to dates. Next, I did not like how category and sub-category were in the same column so I used a spilt function so that Category and Sub-Category had their own columns. Finally I calculated the average donation per backer and percent funded. After making these changes the updated spreadsheet looks like this:
+#### Cleaning The Data
+* When you are working with any new dataset the first two things that you should always do are one make sure that you understand the data and two make sure that the data is in a form that you can perform analysis on it. That is exactly what I did for this project. The column headers made the starting dataset very easy to understand. So onto cleaning the data. Most of the columns in the starting data are in a form that I can easily work with. However, deadline, launched_at, and Category and Sub Category are not in forms that I can use. Deadline and launched_at are not in Date format even though they are dates, so using a simple function they can be converted to dates. Next, category and sub-category are in the same column even though they should be 2 seperate fields. Using a spilt function this column can be broken up so that category and sub-category each have their own column. The average donation and percent funded were also calculated. After cleaning the starting and adding some new calculated columns here is the dataset:
 
 ![](03_Images/Analysis_Main_Tab.JPG)
 
-#### Category Stats
-* 
 
-#### Sub-Category Stats
+### Analysis
+* After cleaning the data I began to analyze the data to search for market trends. I wanted to see which fields had the biggest impact on whether a campaign was successful, failed or cancelled. To do this I created various pivot tables and pivotcharts to visualize the number of sucessful, failed, and cancelled campaigns based on different factors. First, I looked at it based on category, then sub-category, then launch month, then goal. 
+* Additionally, I perforemd some statistical analysis on the data to see if the number of campaign backers was a good metric for success 
 
-#### Launched Date Outcomes
+###### Category Stats
 
-#### Outcome Based on Goal
+##### Sub-Category Stats
 
-#### Statistical Analysis
+##### Launched Month
+
+##### Outcome Based on Goal
+
+##### Number of Campaign Backers Statistical Analysis
+
+### Conclusions
+* Just creating pivot tables and charts is not enough to say that you analyzed the data you also have to make some conclusions about what you think the tables and charts mean. For my conclusions on this repo please refernce the "Kicker Conclusions.docx" file. 
