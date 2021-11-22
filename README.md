@@ -18,15 +18,20 @@
 * After cleaning the data I began to analyze the data to search for market trends. I wanted to see which fields had the biggest impact on whether a campaign was successful, failed or cancelled. To do this I created various pivot tables and pivotcharts to visualize the number of sucessful, failed, and cancelled campaigns based on different factors. First, I looked at it based on category, then sub-category, then launch month, then goal. 
 * Additionally, I perforemd some statistical analysis on the data to see if the number of campaign backers was a good metric for success 
 
-###### Category Stats
+#### Category Stats
+![](03_Images/Category_Stats.JPG)
 
-##### Sub-Category Stats
+#### Sub-Category Stats
+![](03_Images/Sub-Category_Stats.JPG)
 
-##### Launched Month
+#### Launched Month
+![](03_Images/Launch_Dates.JPG)
 
-##### Outcome Based on Goal
+#### Outcome Based on Goal
+![](03_Images/Goal_Stats.JPG)
 
-##### Number of Campaign Backers Statistical Analysis
+#### Number of Campaign Backers Statistical Analysis
+![](03_Images/Backer_Stats.JPG)
 
 ### Conclusions
 * Just creating pivot tables and charts is not enough to say that you analyzed the data you also have to make some conclusions about what you think the tables and charts mean. For my conclusions on this repo please refernce the "Kicker Conclusions.docx" file. 
